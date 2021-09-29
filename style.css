@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.pitanje, .labela, .labela2, .labela3, .labela4, .labela5, .labela6, .labela7, .labela8, .labela9, .labela10, .labela11, .labela12, .labela13  {
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    font-size: 2rem;
+}
+
+.pitanje {
+    margin: 2%;
+}
+
+.labela, .labela2, .labela3, .labela4, .labela5, .labela6, .labela7, .labela8, .labela9, .labela10, .labela11, .labela12, .labela13 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lab, .lab2, .lab3, .lab4, .lab5, .lab6, .lab7, .lab8, .lab9, .lab10, .lab11, .lab12, .lab13 {
+    visibility: hidden;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    height: 25rem;
+}
+
+@media (max-width: 1028px) {
+    .pitanje, .labela, .labela2, .labela3, .labela4, .labela5, .labela6, .labela7, .labela8, .labela9, .labela10, .labela11, .labela12, .labela13  {
+        font-size: 1rem;  
+    }
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 14rem;
+        height: 16rem;
+    }
+}
+
+       
